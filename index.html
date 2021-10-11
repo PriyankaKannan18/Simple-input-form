@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment Project</title>
+    <!-- Css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav">
+    
+  
+      <ul class="nav__list">
+        <li class="nav__listitem">
+          <a href="#">
+            <img src="/noun_radial bar chart_2203257.svg" alt="">
+         
+          </a>
+        </li>
+        <hr style="    border: 5px solid #95918c;
+        border-bottom: none;
+        height: 2px;
+        opacity: 0.2;">
+        <li class="nav__listitem nav__listitem-active">
+          <a href="#">
+            <ion-icon name="person" style="font-size: 2.2rem;"></ion-icon>
+            <p>Students</p>
+          </a>
+        </li>
+        
+        <li class="nav__listitem">
+          <a href="#">
+            <ion-icon name="list-box" style="font-size: 2.2rem;"></ion-icon>
+            <p>Lesson Plan</p>
+          </a>
+        </li>
+        <li class="nav__listitem">
+          <a href="#">
+            <ion-icon name="settings" style="font-size: 2.2rem;"></ion-icon>
+  
+            <p>Settings</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Top Bar -->
+    <header>
+     
+    </header>
+
+    <main>
+      <div class="videos">
+         <span><ion-icon name="arrow-dropleft" style="font-size: 43px; color: cadetblue;"></ion-icon></span>
+         <p style="font-size: 20px; font-weight: 600; color: cadetblue;">Videos</p>
+      </div>
+     
+
+      <div class="inputContainer">
+        <input type="url" placeholder="Insert URL Here" id="url">
+        <br>
+        <p style="margin: 44px 0; font-size: 20px; font-weight: 800; color: #767b91;">or</p>
+        <div class="upload-btn-wrapper">
+          <button class="btn">upload</button>
+          <input type="file" name="myfile" />
+        </div>
+      </div>
+    </main>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </body>
+ <script>
+   
+
+        $(document).ready(function() {
+            $(".toggle_bar span").click(function() {
+                $(".sidebar-nav").toggleClass("active")
+            })
+        })
+  
+ </script>
+</html>
